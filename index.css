@@ -1,0 +1,105 @@
+nav {
+    background-color: #43946b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+  }
+  
+  nav ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 80%;
+  }
+  
+  nav ul li {
+      font-size: 20px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+  }
+  
+  nav ul li:not(:nth-last-child(1)) {
+      border-right: 1px solid white;
+  }
+
+header{
+    background-color: #d0dffc;
+    width: 100%;
+    background-size: cover;
+}
+
+header img{
+    width: 100%;
+}
+
+main {
+    display: flex;
+    background-color: #d0dffc;
+}
+
+main section.texto {
+    width: 50%;
+    text-align: center;
+}
+
+main section.texto h2{
+    color: #4b769b;
+}
+
+div.linha{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#terceira{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-position: 50px;
+}
+
+#terceira #logo{
+    width: 60%;
+}
+
+div.img img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 2px #4b769b;
+}
+
+div.img h5{
+    background-color: #4b769b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    width: 51.5%;
+}
+
+#terceira #empresa{
+    width: 61%;
+}
+
+footer{
+    background-color: #43946b;
+    padding: 20px;
+}
